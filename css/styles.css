@@ -1,0 +1,243 @@
+*{
+    box-sizing: border-box;
+}
+a{
+	color: inherit;
+	text-decoration: none;
+}
+.wrap{
+    margin: 0 auto;
+	width: 1000px;
+	display: flex;
+}
+.floatleft{
+    float: left;
+}
+.floatright{
+    float: right;
+}
+clearfix::before{
+    content: '';
+    display: table;
+    clear: both;
+}
+clearfix::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+header .wrap{
+	justify-content: space-between;
+	padding-top: 8px;
+}
+.call-back{
+	width: 145px;
+	height: 35px;
+	background: #606060;
+	border-radius: 4px;
+}
+header{
+	height: 50px;
+	border-bottom: 1px dotted gray;
+}
+.banner{
+	height: 600px;
+}
+.banner .wrap{
+	padding: 40px;
+}
+.common-background{
+	background: url(../img/light.jpg);
+	background-size: cover;
+}
+
+.call-back{
+	color: white;
+	font: 400 12px/35px 'Roboto';
+}
+
+.sprite1, .discount, .spr1, .spr2, .call
+{ display: inline-block; vertical-align: middle; background: url('../img/sprite/sprite.png') no-repeat; overflow: hidden; text-indent: -9999px; text-align: left; }
+ 
+.sprite1 { background-position: -3px -0px; width: 279px; height: 44px; }
+.discount { background-position: -7px -77px; width: 182px; height: 137px; }
+.spr1 { background-position: -175px -47px; width: 81px; height: 102px; }
+.spr2 { background-position: -178px -152px; width: 80px; height: 102px; }
+.call { margin: 0 23px 0 10px; background-position: -3px -187px; width: 21px; height: 23px; }
+
+.slogans{
+	padding-top: 81px;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+}
+h1{
+	font: 300 35px/38px 'Roboto';
+	text-align: right;
+}
+p.explanation{
+	margin: 0;
+	padding-top: 25px;
+	width: 392px;
+	font: 300 34px/36px 'Roboto';
+	text-align: right;
+	border-top: 1px dotted gray;
+}
+.old-price{
+	margin-top: 20px;
+	width: 146px;
+	height: 43px;
+	background: #fff;
+	font: 400 27px/43px 'Roboto';
+	text-align: center;
+}
+.banner-image1{
+	position: relative;
+}
+.banner-image1-block{
+	position: absolute;
+	top: 0;
+	left: 50px;
+}
+
+
+.special-color{
+	color: #ea104d;
+	font-weight: 700;
+}
+.special-bg{
+	background: #ea104d;
+}
+.button{
+	background: #ea104d;
+	color: white;
+	height: 45px;
+	text-align: center;
+	font: 400 16px/45px 'Roboto';
+	border-radius: 4px;
+}
+.slogans .button{
+	background: #ea104d;
+	width: 240px;
+}
+.block1{
+	height: 650px;
+	background: url(../img/background.jpg) no-repeat;
+	background-size: cover;
+	padding-top: 114px;
+}
+.block1 h2{
+	margin: 0 auto;
+	font: 300 35px/37px 'Roboto';
+	color: #fefefe;
+	text-align: center;
+	padding-bottom: 50px;
+}
+.block1 h2 b{
+	color: white;
+	font-weight: bold;
+}
+.block1 .wrap{
+	flex-direction: column;
+}
+.oneplusone{
+	margin: 0 auto;
+
+	display: flex;
+	font: 300 72px/103px 'Roboto';
+	color: white;
+	text-align: center;
+}
+.oneplusone_item{
+	width: 113px;
+	height: 103px;
+}
+.block1 p{
+	color: white;
+	font: 300 35px/37px 'Roboto';
+	text-align: center;
+}
+.block1 .button{
+	margin: 0 auto;
+	width: 236px;
+}
+.block2{
+	padding-top: 145px;
+	height: 650px;
+	background: url(../img/geek-header.jpg);
+	background-size: cover;
+}
+.block2 .wrap{
+	flex-direction: column;
+	font: 300 24px/29px 'Roboto';
+}
+.block2 p:first-child{
+	margin-bottom:0;
+	padding-bottom: 15px;
+	width: 395px;
+	border-bottom: 1px dotted gray;
+}
+.block2 p:last-of-type{
+	padding-top: 15px;
+	margin-top: 0;
+	width: 285px;
+	border-top: 1px dotted gray;
+}
+.block2 .button{
+	width: 360px;
+}
+footer{
+	background: #103f69;
+	color: white;
+	font: 300 11.5px/14px 'Roboto';
+}
+footer .wrap{
+	flex-direction: column;
+}
+.logosprite{
+	display: flex;
+}
+.logofoot{
+	margin-right: 43px;
+}
+.sprite{
+	display: flex;
+	width: 280px;
+	justify-content: space-between;
+	padding-top: 7px;
+}
+.spr{
+	width: 31px;
+	height: 35px;
+	background: url(../img/sprite/footer-social.png) no-repeat;
+	background-position: 0 0;
+}
+.sprit2{
+	background-position: -42px 0;
+}
+.sprit3{
+	background-position: -84px 0;
+}
+.sprit4{
+	background-position: -126px 0;
+}
+.sprit5{
+	background-position: -168px 0;
+}
+.sprit6{
+	background-position: -209px 0;
+}
+.sprit7{
+	background-position: -250px 0;
+}
+footer p:first-child{
+	color: #a08b87;
+}
+.button:hover{
+	background: #14aca7;
+    color: white;	
+}
+.buttona{
+	display: block;
+	height: 100%;
+}
